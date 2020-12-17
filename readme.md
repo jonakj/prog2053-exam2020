@@ -1,5 +1,4 @@
-eksamensnummer 10087 
-studentnummer 524763
+eksamensnummer 10087
 
 # PROG2053 eksamen v2020
 * Lag en FORK av dette repositoriet og gi meg leserettigheter (aland.a.mendoza@ntnu.no). Det som er i repositoriet på slutten av eksamen teller som din besvarelse.
