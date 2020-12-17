@@ -14,8 +14,8 @@ class EditUser extends LitElement {
 	Username: <input type="text" name="uname" value="${this.user.uname}"><br>
 	First name: <input type="text" name="firstName" value="${this.user.firstName}"><br>
 	Last name: <input type="text" name="lastName" value="${this.user.lastName}"><br>
-	Password new: <input type="text" name="password" value="${this.user.pwd}"><br>
-	Password old: <input type="text" name="password" value="${this.user.oldPwd}"><br>
+	Password new: <input type="text" name="password"><br>
+	Password old: <input type="text" name="password"><br>
 	<input type="submit" form="form1" value="Submit">
 	`;
   }
