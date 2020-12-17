@@ -7,20 +7,19 @@ class EditUser extends LitElement {
     };
   }
 
-  // din kode her
-  
-  
+// Renders / adds the form to the html page
   render() {
 	return html`
-	<form id="form1">
-	Username: <input type="text" name="uname"><br>
-	First name: <input type="text" name="firstName"><br>
-	Last name: <input type="text" name="lastName"><br>
-	Password new: <input type="text" name="password"><br>
-	Password old: <input type="text" name="password"><br>
+	<form id="form1" method="POST">>
+	Username: <input type="text" name="uname" value=""><br>
+	First name: <input type="text" name="firstName" value=""><br>
+	Last name: <input type="text" name="lastName" value=""><br>
+	Password new: <input type="text" name="password" value=""><br>
+	Password old: <input type="text" name="password" value=""><br>
 	<input type="submit" form="form1" value="Submit">
 	`;
   }
+  
 
 }
 customElements.define('edit-user', EditUser);
